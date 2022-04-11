@@ -1,4 +1,9 @@
-import SplashScreen from './SplashScreen';
-import LandingScreen from './LandingScreen';
+import SplashScreen from './Splash';
+import LandingScreen from './Landing';
+import RegisterScreen from './Register';
+import LoginScreen from './Login';
+import WelcomeScreen from './Welcome';
 
-export { SplashScreen, LandingScreen };
+export {
+  SplashScreen, LandingScreen, RegisterScreen, LoginScreen, WelcomeScreen,
+};

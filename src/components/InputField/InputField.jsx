@@ -40,7 +40,7 @@ InputField.propTypes = {
   placeholder: PropTypes.string,
   placeholderTextColor: PropTypes.string,
   secureTextEntry: PropTypes.bool,
-  value: PropTypes.element.isRequired,
+  value: PropTypes.node.isRequired,
 };
 
 export default InputField;
